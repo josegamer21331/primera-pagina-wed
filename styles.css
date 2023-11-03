@@ -1,0 +1,388 @@
+
+
+
+
+
+h1 {
+    color:blueviolet;
+}
+ol li {
+    color: blue;
+}
+p {
+    background-color: aqua;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .photo-grid {
+    display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .photo-grid-item img {
+    width: 300px;
+  }
+  
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: #fff;
+    background-color: #97da59;
+    padding: 20px 0;
+  }
+  
+  .menu {
+    border: 1px solid #fff; 
+    width: 900px;
+  }
+  .links {
+    border: 1px solid #fff; 
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login {
+    margin-left: 20px;
+  }
+.hola
+  {
+    border: 1px solid #fb1111;
+    width: 300px;
+    height: 300px;
+    background-color: #0067dc;
+
+    margin-left: 20px;
+    font-size: 15px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(2, 2, 13);
+  padding: 10px;
+  Border: 10px solid black so;
+  border-radius: 10px;
+    
+  }
+  .header-container {
+    color: #3a3a3a;
+    background-color: #e3fed6;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 500px;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .peine {
+    display: flex;
+    justify-content: center;
+    background-color: #b2d6ff;
+    
+  font-size: 15px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  padding: 10px;
+  Border: 10px solid black so;
+  border-radius: 10px;
+  }
+  
+  .peine1 {
+    display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(14, 53, 97);
+    
+  font-size: 15px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(10, 10, 110);
+  padding: 10px;
+  Border: 10px solid rgb(91, 21, 21) so;
+  border-radius: 10px;
+  }
+  
+  .peine3 {
+    width: 300px;
+    background-color: #2adb16;
+    
+  font-size: 15px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(221, 137, 12);
+  padding: 10px;
+  Border: 10px solid rgb(202, 78, 78) so;
+  border-radius: 10px;
+  }
+  
+  .peine4 {
+    border: 1px solid #fb1111;
+    width: 300px;
+    height: 300px;
+    background-color: #0067dc;
+    
+  font-size: 15px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(2, 2, 13);
+  padding: 10px;
+  Border: 10px solid black so;
+  border-radius: 10px;
+    
+  }
+
+
+
+
+
+
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    flex: 1;
+    text-align: center;
+}
+
+.right-column {
+    flex: 1;
+    text-align: center;
+}
+
+.coluna
+ {
+    flex: 1;
+    text-align: center;
+}
+.mm
+ {
+    flex: 1;
+    text-align: center;
+}
+img
+{
+    border-radius: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Fondo del menú */
+    overflow: hidden;
+    text-align: center; /* Centrar el texto del menú horizontalmente */
+}
+
+li {
+    display: inline; /* Cambiamos "float" a "display: inline" */
+    height: 50px; /* Añadimos altura de 50px */
+    line-height: 100px; /* Alineamos verticalmente el texto en el centro */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------- CSS General ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+  }
+  
+  h1{
+    color: brown;
+  }
+  button{
+    color:brown;
+  }
+  /* ------------- Encabezado Contacto ------------- */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+  .form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  /* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row textarea {
+      width: 250px;
+    }
+
+    .form-row button {
+        font-size: 16px;
+        font-weight: bold;
+      
+      
+        color: #ffffff;
+        background-color: yellow;
+      
+      
+        border: none;
+        border-radius: 3px;
+      
+      
+        padding: 10px 40px;
+        cursor: pointer;
+      }
+      
+      
+      .form-row button:hover {
+        background-color: brown;
+      }
+      
+      
+      .form-row button:active {
+        background-color: brown;
+      }
+      
+      
+      /* ------------- Para Pantallas de más de 700px ------------- */
+      
+      
+      .form-row button {
+          margin-left: 120px;
+      }
+      
+      
